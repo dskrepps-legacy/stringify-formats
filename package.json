@@ -1,0 +1,40 @@
+{
+  "name": "stringify-formats",
+  "version": "0.1.0",
+  "description": "Methods for synchronously stringifying various data formats from JS objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DSKrepps/stringify-formats.git"
+  },
+  "author": "DSKrepps <dskrepps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DSKrepps/stringify-formats/issues"
+  },
+  "homepage": "https://github.com/DSKrepps/stringify-formats",
+  "keywords": [
+    "cson",
+    "csv",
+    "hjson",
+    "ini",
+    "json",
+    "json5",
+    "xml",
+    "yaml",
+    "yml"
+  ],
+  "devDependencies": {
+    "tape": "*",
+    "cson-parser": "*",
+    "to-csv": "*",
+    "hjson": "*",
+    "ini": "*",
+    "json5": "*",
+    "xml2json": "*",
+    "js-yaml": "*"
+  }
+}
