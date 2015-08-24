@@ -20,7 +20,7 @@ var specialFixtures = {
 }
 
 
-test('Each stringifier creates expected object', function (t) {
+test('Each stringifier creates expected string', function (t) {
 	
 	for (var format in stringifyFormats) {
 		
