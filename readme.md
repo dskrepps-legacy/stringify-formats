@@ -6,6 +6,20 @@ Feel free to suggest more formats or better modules to stringify them with via i
 
 [![NPM](https://nodei.co/npm/stringify-formats.png)](https://nodei.co/npm/stringify-formats/)
 
+#### Formats
+| Ext   | format | npm module |
+| :---- |:------:| ----------:|
+| .cson | [cson](https://github.com/bevry/cson) | [cson-parser](https://www.npmjs.com/package/cson-parser) |
+| .csv | [csv](https://en.wikipedia.org/wiki/Comma-separated_values) | [to-csv](https://www.npmjs.com/package/to-csv) |
+| .hjson | [hjson](https://hjson.org/) | [hjson](https://www.npmjs.com/package/hjson) |
+| .ini | [ini](https://en.wikipedia.org/wiki/INI_file) | [ini](https://www.npmjs.com/package/ini) |
+| .json | [json](http://www.json.org/) | native |
+| .json5 | [json5](http://json5.org/) | [json5](https://www.npmjs.com/package/json5) |
+| .xml | [xml](https://en.wikipedia.org/wiki/XML) | [xml2json](https://www.npmjs.com/package/xml2json) |
+| .yaml, .yml | [yaml](http://yaml.org/) | [js-yaml](https://www.npmjs.com/package/js-yaml) |
+
+#### Source
+
 ````js
 
 /* Common patterns */
